@@ -1,0 +1,28 @@
+
+                            <?php
+                            
+                            
+                    
+                                 foreach($tableElement as $donne){
+                                    $nom=$donne['nom'];
+                                    echo "<div class='list-group list-group-horizontal'>
+                                    <p>nom de l'etudiant </p>
+                                    <select name='nameToChange'>
+                                    
+                                        <option value='$nom' >$nom</option>
+                                        
+                                                
+                                    </select>
+                                    
+                                    </div>";
+                                 }
+                                 echo "<div class='btn btn-primary' name='valid'> ok </div>";
+
+
+                                 if(isset($_POST['valid'])){
+
+
+                                    echo "";
+
+                                 }
+                            ?>

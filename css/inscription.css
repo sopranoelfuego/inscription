@@ -1,0 +1,18 @@
+.sexe {
+    display: inline-block;
+}
+.etatcivil {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+table {
+
+    margin: 50px 50px;
+   font-size: 21px;
+
+
+}

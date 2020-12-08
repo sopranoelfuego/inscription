@@ -1,0 +1,13 @@
+*{
+    margin: 0 auto;
+}
+.form {
+    background-color: darkblue;
+    width: 500px;
+    height: 300px;
+    align-self: center;
+
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 24px;
+}

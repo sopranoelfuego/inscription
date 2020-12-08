@@ -1,0 +1,117 @@
+ .img {
+     width: 150px;
+     height: 100px;
+ }
+ 
+ .containery {
+     width: 15%;
+     display: inline-block;
+ }
+ 
+ .headesttitlle {
+     background-color: rgb(6, 153, 153);
+     width: 85%;
+     display: inline;
+     float: right;
+ }
+ 
+ * {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+ }
+ 
+ .titre {
+     text-align: center;
+     margin-top: auto;
+ }
+ 
+ .menu {
+     height: 70px;
+     margin-left: 7px;
+     margin-right: 7px;
+     font-size: 22px;
+     background-color: rgba(223, 213, 213, 0.603);
+ }
+ 
+ #logo {
+     width: 100px;
+     height: 150px;
+     margin: 5px;
+ }
+ 
+ #logo img {
+     width: 100px;
+     height: 100px;
+     border-radius: 500px;
+ }
+ 
+ .drop_menu {
+     background-size: cover;
+     padding-left: 30px;
+     margin: 20px;
+     list-style-type: none;
+     height: 30px;
+ }
+ 
+ .drop_menu li {
+     float: right;
+     font-size: 20px;
+ }
+ 
+ .drop_menu li li {
+     font-size: 16px;
+ }
+ 
+ .drop_menu li a {
+     padding: 9px 20px;
+     display: block;
+     color: black;
+     text-decoration: none;
+     font: 18px arial, verdana, sans-serif;
+     font-size: 22px;
+ }
+ /*submenu*/
+ 
+ .drop_menu ul {
+     position: absolute;
+     left: -9999px;
+     top: -9999px;
+     list-style-type: none;
+     text-decoration: none;
+ }
+ 
+ .drop_menu li:hover {
+     position: relative;
+     background-color: rgb(163, 159, 159);
+     background-size: cover;
+ }
+ 
+ .drop_menu li:hover ul {
+     left: 0px;
+     top: 30px;
+     padding: 0px;
+ }
+ 
+ .drop_menu li:hover ul li a {
+     padding-top: 10px;
+     display: block;
+     width: 168px;
+     text-indent: 15px;
+     background-color: rgba(228, 225, 225, 0.185);
+ }
+ 
+ .entete {
+     display: inline-block;
+ }
+ 
+ #footer {
+     background-color: #4d3d00;
+     color: white;
+     font-size: 18px;
+     margin-top: 40%;
+     margin-left: 2px;
+     margin-right: 2px;
+     padding-left: 20px;
+     justify-content: left;
+ }

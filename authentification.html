@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/authentification.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <form action="aceuille.html" method="POST" class="formclasse">
+          <table class="table">
+            <tr> 
+                <td>  <label>email</label></td>
+                <td>
+                 <input type="email" name="email" required><br></td>
+            </tr>
+            <tr>
+                <td>
+                 <label>password</label></td>
+                 <td>
+                     <input type="password" name="password" required><br></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="login" required></td>
+
+                <td><input type="submit" name="anuler" value="anuler" required></td>
+            </tr>
+             
+           
+          </table>  
+          </form>
+    </div>
+    <?php 
+    
+    $db=new PDO('mysql:host=localhost;dbname=informatique',"root","");
+    if($db!=null){
+        echo "connexion reussi";
+    }else {
+        echo "echec de connexion";
+    }
+  ?>
+</body>
+</html>
